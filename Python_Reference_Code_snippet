@@ -1,8 +1,8 @@
-#Get Current Date
+# Get Current Date
 import datetime
 dt= datetime.datetime.today().strftime('%d%m%y')
 
-#Get date time and copy files in the list to the outbound folder with current date in filenames.
+# Get date time and copy files in the list to the outbound folder with current date in filenames.
 
 for file in file_list:
 str1 = file.name
