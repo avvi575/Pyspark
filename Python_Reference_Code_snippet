@@ -1,0 +1,12 @@
+#Get Current Date
+import datetime
+dt= datetime.datetime.today().strftime('%d%m%y')
+
+#Get date time and copy files in the list to the outbound folder with current date in filenames.
+
+for file in file_list:
+str1 = file.name
+lst = str1. split(.)
+tgt_filename =  lst[0]+'_'+dt_+lst[1]
+dbutils.fs.cp (file_path, 'Outbound_Pathname/outbound_folder'+'/'+tgt_filename)
+

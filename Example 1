@@ -1,5 +1,0 @@
-#Python: Get Current Date
-
-import datetime
-dt= datetime.datetime.today().strftime('%d%m%y')
-
