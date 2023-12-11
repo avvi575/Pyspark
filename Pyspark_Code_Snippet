@@ -8,3 +8,19 @@ col2 data_type2
 row format delimitted 
 fields terinated by ','
 location 'location_path'
+
+
+#load data into existing table from the path 
+%sql 
+load data inpath 'path_name' into table table_name
+
+
+#creating table using csv file
+create table table_name(
+col1 data_type1,
+col2 data_type2
+)
+using csv
+location 'location_path'
+
+
