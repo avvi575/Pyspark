@@ -1,0 +1,10 @@
+#Pyspark_Code_Snippets
+
+%sql
+create table table_name(
+col1 data_type1,
+col2 data_type2
+)
+row format delimitted 
+fields terinated by ','
+location 'location_path'
