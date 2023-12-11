@@ -10,3 +10,4 @@ lst = str1. split(.)
 tgt_filename =  lst[0]+'_'+dt_+lst[1]
 dbutils.fs.cp (file_path, 'Outbound_Pathname/outbound_folder'+'/'+tgt_filename)
 
+  
